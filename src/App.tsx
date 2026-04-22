@@ -1,21 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Navigation';
 import Hero from './Hero';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
+import ProjectDetail from './ProjectDetail';
 
-function App() {
+function HomePage() {
   return (
-    <div className="relative">
-      <div className="fixed inset-0 -z-10">
-        <div className="absolute inset-0 bg-linear-to-br from-[#0a0a0a] via-[#0d1117] to-[#0a0a0a]"></div>
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500 rounded-full blur-[120px]"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600 rounded-full blur-[120px]"></div>
-        </div>
-      </div>
-
+    <>
       <Navigation />
       <Hero />
       <About />
@@ -30,7 +24,28 @@ function App() {
           </p>
         </div>
       </footer>
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="relative">
+        <div className="fixed inset-0 -z-10">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#0d1117] to-[#0a0a0a]"></div>
+          <div className="absolute inset-0 opacity-20">
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500 rounded-full blur-[120px]"></div>
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600 rounded-full blur-[120px]"></div>
+          </div>
+        </div>
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/project/:id" element={<ProjectDetail />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
