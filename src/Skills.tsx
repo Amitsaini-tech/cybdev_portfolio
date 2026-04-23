@@ -24,7 +24,7 @@ export default function Skills() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <span className="text-cyan-400 font-mono text-sm mb-4 block">$ ls -la skills/</span>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-linear-to-r from-white to-cyan-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
               Skills & Technologies
             </h2>
             <p className="text-xl text-gray-400 leading-relaxed max-w-3xl">
@@ -46,7 +46,7 @@ export default function Skills() {
                   {category.skills.map((skill, skillIndex) => (
                     <span
                       key={skillIndex}
-                      className="px-4 py-2 bg-linear-to-r from-cyan-500/10 to-blue-600/10 border border-cyan-500/30 rounded-lg text-sm font-mono text-gray-300 hover:border-cyan-500 hover:scale-105 transition-all duration-300 cursor-default"
+                      className="px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-blue-600/10 border border-cyan-500/30 rounded-lg text-sm font-mono text-gray-300 hover:border-cyan-500 hover:scale-105 transition-all duration-300 cursor-default"
                     >
                       {skill}
                     </span>

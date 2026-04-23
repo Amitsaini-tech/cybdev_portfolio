@@ -1,1 +1,1 @@
-{"root":["./src/about.tsx","./src/app.tsx","./src/contact.tsx","./src/hero.tsx","./src/hero3d.tsx","./src/navigation.tsx","./src/particlebackground.tsx","./src/projects.tsx","./src/skills.tsx","./src/main.tsx"],"version":"5.9.3"}
+{"root":["./src/about.tsx","./src/app.tsx","./src/contact.tsx","./src/hero.tsx","./src/hero3d.tsx","./src/navigation.tsx","./src/particlebackground.tsx","./src/projects.tsx","./src/skills.tsx","./src/main.tsx","./src/projectdetail.tsx","./src/vite-env.d.ts","./src/lib/supabase.ts"],"version":"5.9.3"}

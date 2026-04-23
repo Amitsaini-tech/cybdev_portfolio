@@ -8,7 +8,7 @@ export default function Hero() {
         <ParticleBackground />
       </div>
 
-      <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#0a0a0a]/30 to-[#0a0a0a] z-5"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0a0a]/30 to-[#0a0a0a] z-5"></div>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -18,7 +18,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-white via-cyan-100 to-cyan-400 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-100 to-cyan-400 bg-clip-text text-transparent leading-tight">
             Full-Stack Developer & MCA Candidate
           </h1>
 
@@ -30,7 +30,7 @@ export default function Hero() {
             <a
               href="/resume.pdf"
               download
-              className="px-8 py-4 bg-linear-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-2 group"
+              className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-2 group"
             >
               <Download className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
               Download Resume
