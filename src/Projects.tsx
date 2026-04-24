@@ -41,15 +41,7 @@ export default function Projects() {
       github: 'https://github.com/Amitsaini-tech/Ecommerce-delivery',
       demo: '#',
     },
-    {
-      id: 5,
-      title: 'Animated Portfolio',
-      description: 'An interactive developer portfolio with smooth animations and modern design.',
-      tech: ['React', 'JavaScript', 'Framer Motion', 'Tailwind CSS'],
-      image: 'https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/Amitsaini-tech/animated_portfolio',
-      demo: '#',
-    },
+
 
   ];
 
