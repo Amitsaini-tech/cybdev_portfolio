@@ -1,20 +1,20 @@
 export default function Skills() {
   const skillCategories = [
     {
-      category: 'Frontend',
-      skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Three.js', 'Vue.js'],
+      category: 'Programming Languages',
+      skills: ['Java (Core & Advanced)', 'Python', 'SQL (MySQL)'],
     },
     {
-      category: 'Backend',
-      skills: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB', 'GraphQL', 'REST APIs'],
+      category: 'Frameworks & Databases',
+      skills: ['Spring Framework', 'MySQL', 'Firebase'],
     },
     {
-      category: 'Tools & DevOps',
-      skills: ['Git', 'Docker', 'AWS', 'CI/CD', 'Webpack', 'Vite'],
+      category: 'Java Ecosystem',
+      skills: ['Java Servlets', 'JavaBeans', 'Java Swing', 'AWT', 'MySQL Connector'],
     },
     {
-      category: 'Design & UI',
-      skills: ['Figma', 'Adobe XD', 'Responsive Design', 'UI/UX', 'Animation', 'Prototyping'],
+      category: 'Libraries & Tools',
+      skills: ['React.js', 'Git', 'GitHub', 'NetBeans', 'Visual Studio Code'],
     },
   ];
 

@@ -7,9 +7,9 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Industrial Quotation & POS System',
-      description: 'A fully functional comprehensive system for generating industrial quotations and managing point-of-sale inventory.',
-      tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Tailwind CSS'],
+      title: 'Industrial Quotation System',
+      description: 'A comprehensive desktop application for generating professional industrial quotations securely.',
+      tech: ['Java', 'Swing', 'SQL', 'FlatLaf', 'Jakarta Mail', 'Hibernate', 'BCrypt', 'lombok'],
       image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: '#',
       demo: '#',
@@ -41,8 +41,15 @@ export default function Projects() {
       github: 'https://github.com/Amitsaini-tech/Ecommerce-delivery',
       demo: '#',
     },
-
-
+    {
+      id: 5,
+      title: 'POS Inventory System',
+      description: 'A robust point-of-sale and inventory management desktop application with real-time reporting.',
+      tech: ['Java', 'Swing', 'SQL', 'JFreeChart', 'JCalendar'],
+      image: 'https://images.pexels.com/photos/3756345/pexels-photo-3756345.jpeg?auto=compress&cs=tinysrgb&w=800',
+      github: '#',
+      demo: 'https://mega.nz/file/w28Q0Dra#XUOu7kUesROYx8Yxgm1o9r1Xm0GZUVuv9oFyh_99fOc',
+    },
   ];
 
   return (
