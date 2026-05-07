@@ -21,7 +21,7 @@ export default function Projects() {
       tech: ['React', 'JavaScript', 'Node.js', 'MongoDB'],
       image: 'https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com/Amitsaini-tech/PureHerbHaven',
-      demo: '#',
+      demo: 'pureherbheaven.netlify.app',
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ export default function Projects() {
       tech: ['React', 'JavaScript', 'Node.js', 'MongoDB', 'Stripe'],
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: 'https://github.com/Amitsaini-tech/Ecommerce-delivery',
-      demo: '#',
+      demo: 'https://delivery.netlify.app',
     },
     {
       id: 5,
