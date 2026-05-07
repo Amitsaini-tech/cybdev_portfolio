@@ -90,7 +90,7 @@ export const projectsData = [
       'Secure user roles with BCrypt password hashing',
       'Robust SQL database integration with Hibernate',
     ],
-    duration: '4 months',
+    duration: '2 months',
     team: '1 developer',
   },
   {
@@ -101,7 +101,7 @@ export const projectsData = [
     tech: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
     image: 'https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Amitsaini-tech/PureHerbHaven',
-    demo: '#',
+    demo: 'https://pureherbheaven.netlify.app',
     goals: [
       'Create an intuitive shopping experience for natural products',
       'Implement a robust product categorization system',
@@ -153,7 +153,7 @@ export const projectsData = [
     tech: ['React', 'JavaScript', 'Node.js', 'MongoDB', 'Stripe'],
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Amitsaini-tech/Ecommerce-delivery',
-    demo: '#',
+    demo: 'https://elivery.netlify.app/',
     goals: [
       'Streamline the delivery management process',
       'Provide customers with real-time tracking updates',
@@ -168,7 +168,7 @@ export const projectsData = [
       'Customer notification system',
       'Multi-vendor support capability',
     ],
-    duration: '5 months',
+    duration: '1 months',
     team: '1 developer',
   },
   {
@@ -193,7 +193,7 @@ export const projectsData = [
       'Date-based data filtering with JCalendar',
       'Low stock alerts and supplier management',
     ],
-    duration: '3 months',
+    duration: '2 months',
     team: '1 developer',
   },
 ];
