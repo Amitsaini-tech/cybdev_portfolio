@@ -23,7 +23,7 @@ export default function Skills() {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
-            <span className="text-cyan-400 font-mono text-sm mb-4 block">$ ls -la skills/</span>
+            {/* <span className="text-cyan-400 font-mono text-sm mb-4 block">$ ls -la skills/</span> */}
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
               Skills & Technologies
             </h2>

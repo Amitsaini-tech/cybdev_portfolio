@@ -52,7 +52,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="mb-16 text-center">
-            <span className="text-cyan-400 font-mono text-sm mb-4 block">$ touch contact.md</span>
+            {/* <span className="text-cyan-400 font-mono text-sm mb-4 block">$ touch contact.md</span> */}
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
               Let's Work Together
             </h2>

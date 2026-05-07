@@ -29,7 +29,7 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
-            <span className="text-cyan-400 font-mono text-sm mb-4 block">$ cat about.txt</span>
+            {/* <span className="text-cyan-400 font-mono text-sm mb-4 block">$ cat about.txt</span> */}
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
               About Me
             </h2>
@@ -101,7 +101,7 @@ export const projectsData = [
     tech: ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
     image: 'https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Amitsaini-tech/PureHerbHaven',
-    demo: 'https://pureherbheaven.netlify.app',
+    demo: 'pureherbheaven.netlify.app',
     goals: [
       'Create an intuitive shopping experience for natural products',
       'Implement a robust product categorization system',
@@ -153,7 +153,7 @@ export const projectsData = [
     tech: ['React', 'JavaScript', 'Node.js', 'MongoDB', 'Stripe'],
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Amitsaini-tech/Ecommerce-delivery',
-    demo: 'https://elivery.netlify.app/',
+    demo: 'elivery.netlify.app',
     goals: [
       'Streamline the delivery management process',
       'Provide customers with real-time tracking updates',
