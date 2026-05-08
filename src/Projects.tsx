@@ -13,7 +13,7 @@ export default function Projects() {
       tech: ['React', 'Vite', 'Redux Toolkit', 'Recharts', 'PapaParse + SheetJS', 'Tailwind CSS', 'Firebase'],
       image: datamindDashboard,
 
-      github: 'https://github.com/Amitsaini-tech/restourantapp',
+      github: 'https://github.com/Amitsaini-tech/Analytics.git',
       demo: '#',
     },
     {
