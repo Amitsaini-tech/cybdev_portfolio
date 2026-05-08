@@ -52,7 +52,7 @@ export default function Projects() {
       image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
       github: '#',
       demo: '#',
-    }
+    },
   ];
 
   return (

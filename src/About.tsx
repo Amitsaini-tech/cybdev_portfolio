@@ -1,4 +1,5 @@
 import { Code2, Zap, Palette, Database } from 'lucide-react';
+import datamindDashboard from './assets/datamind_dashboard.png';
 
 export default function About() {
   const features = [
@@ -121,26 +122,25 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: 'Restaurant App',
-    description: 'A comprehensive food ordering and table reservation application for restaurants.',
-    fullDescription: 'A dynamic restaurant application designed to streamline the food ordering and table reservation process. It features a digital menu with appetizing visuals, real-time order tracking, and an easy-to-use table booking system. Built to enhance the dining experience both online and in-house.',
-    tech: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase'],
-    image: 'https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    title: 'DataMind AI — Analytics Platform',
+    description: 'DataMind AI is a next-generation analytics platform that transforms complex datasets into actionable business insights. Using advanced AI-powered visualization and predictive modeling, it empowers businesses to make data-driven decisions with speed and confidence',
+    fullDescription: 'DataMind AI is a powerful, real-time analytics platform designed to empower businesses with data-driven insights. It features an interactive dashboard with dynamic visualizations, allowing users to explore complex datasets effortlessly. With built-in support for processing large files, users can upload and analyze CSV and Excel data on the fly. Leveraging Firebase for real-time data sync and authentication, DataMind AI provides a secure and responsive experience for teams to collaborate and make informed decisions.',
+    tech: ['React', 'Vite', 'Redux Toolkit', 'Recharts', 'PapaParse + SheetJS', 'Tailwind CSS', 'Firebase'],
+    image: datamindDashboard,
     github: 'https://github.com/Amitsaini-tech/restourantapp',
     demo: '#',
     goals: [
-      'Digitalize the restaurant menu with high-quality visuals',
-      'Enable seamless online food ordering',
-      'Implement a straightforward table reservation system',
-      'Provide an admin interface for order management',
+      'Empower businesses with actionable data insights',
+      'Provide a seamless experience for data exploration',
+      'Enable secure and real-time team collaboration',
+      'Simplify complex data analysis with AI assistance',
     ],
     features: [
-      'Interactive digital menu',
-      'Real-time order placement and tracking',
-      'Table reservation with date and time selection',
-      'User accounts and order history',
-      'Admin dashboard for staff',
-      'Responsive design for mobile and desktop',
+      'Interactive dashboards with glowing charts and graphs',
+      'Real-time data sync and authentication via Firebase',
+      'On-the-fly CSV and Excel file parsing',
+      'Advanced predictive modeling and data visualization',
+      'Responsive design for seamless access across devices',
     ],
     duration: '4 months',
     team: '1 developer',
