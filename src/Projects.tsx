@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import datamindDashboard from './assets/datamind_dashboard.png';
 
 export default function Projects() {
   const navigate = useNavigate();
@@ -7,11 +8,12 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Industrial Quotation System',
-      description: 'A comprehensive desktop application for generating professional industrial quotations securely.',
-      tech: ['Java', 'Swing', 'SQL', 'FlatLaf', 'Jakarta Mail', 'Hibernate', 'BCrypt', 'lombok'],
-      image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: '#',
+      title: 'DataMind AI — Analytics Platform',
+      description: 'DataMind AI is a next-generation analytics platform that transforms complex datasets into actionable business insights. Using advanced AI-powered visualization and predictive modeling, it empowers businesses to make data-driven decisions with speed and confidence',
+      tech: ['React', 'Vite', 'Redux Toolkit', 'Recharts', 'PapaParse + SheetJS', 'Tailwind CSS', 'Firebase'],
+      image: datamindDashboard,
+
+      github: 'https://github.com/Amitsaini-tech/restourantapp',
       demo: '#',
     },
     {
@@ -23,17 +25,9 @@ export default function Projects() {
       github: 'https://github.com/Amitsaini-tech/PureHerbHaven',
       demo: 'https://pureherbheaven.netlify.app',
     },
+
     {
       id: 3,
-      title: 'Restaurant App',
-      description: 'A comprehensive food ordering and table reservation application for restaurants.',
-      tech: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase'],
-      image: 'https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=800',
-      github: 'https://github.com/Amitsaini-tech/restourantapp',
-      demo: '#',
-    },
-    {
-      id: 4,
       title: 'E-commerce Delivery',
       description: 'Full-stack e-delivery solution with order tracking and inventory management.',
       tech: ['React', 'JavaScript', 'Node.js', 'MongoDB', 'Stripe'],
@@ -42,7 +36,7 @@ export default function Projects() {
       demo: 'https://elivery.netlify.app',
     },
     {
-      id: 5,
+      id: 4,
       title: 'POS Inventory System',
       description: 'A robust point-of-sale and inventory management desktop application with real-time reporting.',
       tech: ['Java', 'Swing', 'SQL', 'JFreeChart', 'JCalendar'],
@@ -50,6 +44,15 @@ export default function Projects() {
       github: '#',
       demo: 'https://mega.nz/file/w28Q0Dra#XUOu7kUesROYx8Yxgm1o9r1Xm0GZUVuv9oFyh_99fOc',
     },
+    {
+      id: 5,
+      title: 'Industrial Quotation System',
+      description: 'A comprehensive desktop application for generating professional industrial quotations securely.',
+      tech: ['Java', 'Swing', 'SQL', 'FlatLaf', 'Jakarta Mail', 'Hibernate', 'BCrypt', 'lombok'],
+      image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
+      github: '#',
+      demo: '#',
+    }
   ];
 
   return (
