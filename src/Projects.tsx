@@ -14,7 +14,7 @@ export default function Projects() {
       image: datamindDashboard,
 
       github: 'https://github.com/Amitsaini-tech/Analytics.git',
-      demo: '#',
+      demo: 'https://aidatamind.netlify.app',
     },
     {
       id: 2,

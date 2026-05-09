@@ -77,8 +77,8 @@ export const projectsData = [
     fullDescription: 'DataMind AI is a powerful, real-time analytics platform designed to empower businesses with data-driven insights. It features an interactive dashboard with dynamic visualizations, allowing users to explore complex datasets effortlessly. With built-in support for processing large files, users can upload and analyze CSV and Excel data on the fly. Leveraging Firebase for real-time data sync and authentication, DataMind AI provides a secure and responsive experience for teams to collaborate and make informed decisions.',
     tech: ['React', 'Vite', 'Redux Toolkit', 'Recharts', 'PapaParse + SheetJS', 'Tailwind CSS', 'Firebase'],
     image: datamindDashboard,
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/Amitsaini-tech/Analytics.git',
+    demo: 'https://aidatamind.netlify.app',
     goals: [
       'Empower businesses with actionable data insights',
       'Provide a seamless experience for data exploration',
